@@ -1,0 +1,35 @@
+.Appp{
+    padding: 4rem;
+    background: #fff;
+}
+.App-header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.barlist{
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.Appp-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Appp-wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.cards__items {
+    margin-bottom: 24px;
+}
