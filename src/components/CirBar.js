@@ -10,6 +10,7 @@ const CirBar = props => {
     const circleRef = useRef(null)
     const {
         size,
+        name,
         progress,
         strokeWidth,
         circleOneStroke,
@@ -30,6 +31,7 @@ const CirBar = props => {
     return (
         <li className="barLi">
             <div className="circle-container">
+            <div className="circular-chart-bg">
             <svg 
                 className="circular-chart" 
                 width={size} 
@@ -67,7 +69,10 @@ const CirBar = props => {
                     {progress}%
                 </text>
             </svg>
-            
+            </div>
+            <div className="lan-name">
+                <h1>{name}</h1>
+            </div>
             </div>
         </li>
     )

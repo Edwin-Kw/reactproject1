@@ -6,15 +6,15 @@
 }
 .circular-chart{
     
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    
 }
 .circle-container{
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -23,14 +23,20 @@
     text-decoration: none;
 }
 .circular-chart-bg{
-    width: 200px;
-    height: 200px;
     
-
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
 }
 
 .circle {
     display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
     fill: none;
 
 }
@@ -44,8 +50,27 @@
     transform: scale(1.04);
 }
 .percentage {
+    
     font-size: 1.3rem;
     text-anchor: middle;
     fill: #fff;
     font-weight: bold;
 }
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .barLi {
+      margin-bottom: 2rem;
+    }
+  }
