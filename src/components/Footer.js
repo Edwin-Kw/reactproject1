@@ -68,7 +68,7 @@ function Footer() {
               <i class='fab fa-react' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>EdwinKw © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

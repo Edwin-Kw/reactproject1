@@ -61,14 +61,14 @@ function Services(){
               <CirBar {...state2}/>
               <CirBar {...state3}/>
             </ul>
-            <p>
+            {/* <p>
               <input 
                 type="text"
                 name="percent"
                 placeholder="Add Progress Value"
                 onChange={onChange}
               ></input>
-            </p>
+            </p> */}
             <button onClick={randomProgressValue}>
                 Random
             </button>
